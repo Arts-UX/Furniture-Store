@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: whitesmoke;
+    color: #383838;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: end;
+    margin-bottom: 5em;
+}
+
+nav {
+    margin: 2em;
+    border-radius: 20px;
+    padding: .5em 1em;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 4.1em;
+}
+
+nav li a {
+    font-size: .9rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #383838;
+}
