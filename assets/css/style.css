@@ -82,7 +82,7 @@ nav li a {
 
 .video-section {
     position: relative;
-    width: 85%;
+    width: 80%;
     margin: 10% auto 2%;
     left: 0;
     padding-bottom: 0;
@@ -94,4 +94,48 @@ nav li a {
     object-fit: cover;
     border-radius: 15px;
     opacity: 80%;
+}
+
+.second-page {
+    position: relative;
+    width: 80%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.second-page h1 {
+    font-size: 8rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;  
+    padding: 2em 0;
+}
+
+#about {
+    display: flex;
+    background-color: #383838;
+    width: 97%;
+    height: 180vh;
+    margin: 0 auto;
+}
+
+#about-heading {
+    font-size: 6rem;
+    color: whitesmoke;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: 10% 0 0 0%;
+    text-align: left;
+    margin-left: 10%;
+}
+
+.circle {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    border-radius: 50%;
+    margin: 10% 0 0 75%;
 }
