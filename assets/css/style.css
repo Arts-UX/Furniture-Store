@@ -35,17 +35,44 @@ nav ul {
 }
 
 nav li a {
+    position: relative;
     font-size: .9rem;
     text-decoration: none;
     text-transform: uppercase;
     color: #383838;
+    padding: 0 10px;
 }
+
+nav li a::after {
+    content: "";
+    position: absolute;
+    background-color: #383838;
+    height: 3px;
+    width: 0;
+    left: 5px;
+    bottom: -10px;
+    transition: 0.3s;
+}
+
+nav li a:hover::after {
+   width: 85%;
+}
+
+
+.name-wrapper {
+    display: flex;
+    position: relative;
+    left: 4em;
+    width: 90%;
+    border-bottom: 2px solid #383838;
+}
+
 
 #shop-name {
     font-family: 'Poppins', sans-serif;
     font-size: 14.2rem;
     font-weight: 200;
-    border-bottom: 2px solid #383838;
+   /* border-bottom: 2px solid #383838; */
 }
 
 
@@ -71,6 +98,12 @@ nav li a {
     border: 3px solid #000;
 }
 
+.hero {
+    max-width: 95%;
+    padding: 2em;
+    margin: 0 auto;
+    padding-bottom: 0;
+}
 
 .gallery {
     display: grid;
@@ -84,6 +117,43 @@ nav li a {
     height: 100%;
     object-fit: cover;
 
+}
+
+.text {
+    text-transform: uppercase;
+    font-size: .85rem;
+}
+
+.text span {
+    display: flex;
+    flex-direction: column;
+    margin-top: 55%;
+}
+
+.gallery__item--5 .text {
+    
+}
+
+
+
+.gallery__item--1 {
+    grid-column: 1 / span 2;
+    grid-row: 1 / span 2;
+}
+
+.gallery__item--2 {
+    grid-column: 3;
+    grid-row: 1 / span 1;
+}
+
+.gallery__item--3 {
+    grid-column: 4;
+    grid-row: 1 / span 2;
+}
+
+.gallery__item--4 {
+    grid-column: 3 / span 1;
+    grid-row: 2 / span 2;
 }
 
 .main-page {
