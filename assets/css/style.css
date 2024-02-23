@@ -26,6 +26,7 @@ nav {
     margin: 2em;
     border-radius: 20px;
     padding: .5em 1em;
+    background-color: whitesmoke;
 }
 
 nav ul {
@@ -58,6 +59,38 @@ nav li a:hover::after {
    width: 85%;
 }
 
+.search-box {
+    margin-top: -6px;
+    height: 30px;
+    display: flex;
+    cursor: pointer;
+    background: whitesmoke;
+    border-radius: 30px;
+    align-items: center;
+    border: 1px solid whitesmoke;
+}
+
+.search-box:hover input {
+    width: 200px;
+    border: 1px solid #383838;
+    border-radius: 20px;
+    padding: 5px 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav i {
+    margin-left: 10px;
+    color: red;
+}
+
+.search-box input {
+    width: 0;
+    outline: none;
+    border: none;
+    font-weight: 300;
+    transition: 0.8s;
+    background: transparent;
+}
 
 .name-wrapper {
     display: flex;
@@ -78,8 +111,8 @@ nav li a:hover::after {
 
 .scroll-to-top-btn {
     position: fixed;
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     background: whitesmoke;
     border: 3px solid #383838;
     border-radius: 5px;
@@ -87,8 +120,8 @@ nav li a:hover::after {
     right: 21px;
     text-decoration: none;
     text-align: center;
-    line-height: 50px;
-    font-size: 2rem;
+    line-height: 37px;
+    font-size: 1.5rem;
     color: #383838;
 }
 
@@ -130,12 +163,6 @@ nav li a:hover::after {
     margin-top: 55%;
 }
 
-.gallery__item--5 .text {
-    
-}
-
-
-
 .gallery__item--1 {
     grid-column: 1 / span 2;
     grid-row: 1 / span 2;
@@ -165,8 +192,23 @@ nav li a:hover::after {
     padding-top: 20px;
     display: flex;
     flex-direction: column;
+    animation: slide-up;
+    animation-timeline: view();  
+    animation-range-start: cover 0vh;
+    animation-range-end: contain 20vh; 
 }
 
+@keyframes slide-up {
+    from {
+        opacity: 1;
+        line-height: 900px;
+    }
+
+    to {
+        opacity: 1;
+        line-height: 122px;
+    }
+}
 
 .main-page h1 {
     width: 95%;
@@ -175,7 +217,32 @@ nav li a:hover::after {
     text-transform: uppercase;
     text-align: end;
     padding: .9em 0 1.7em 0;
+}
 
+.cta-btn {
+    text-align: right;
+    margin-right: 10%;
+    margin-top: -8%;
+}
+
+.button {
+    cursor: pointer;
+    color: whitesmoke;
+    background-color: #383838;
+    padding: .9em 2em;
+    border-radius: 25px;
+    border: 2px solid #383838;
+    font-size: .9rem;
+    text-transform: uppercase;
+    text-decoration: none;
+
+}
+
+.button:hover {
+    color: #383838;
+    background-color: whitesmoke;
+    border: 2px solid red;
+    transition: 0.5s;
 }
 
 .video-section {
@@ -194,24 +261,7 @@ nav li a:hover::after {
     filter: grayscale(70%);
 }
 
-.cta-btn {
-    position: absolute;
-    margin-top: -30%;
-    margin-left: 45%;
-    padding: 20px 50px;
-    font-size: 1.5rem;
-    background-color: #000;
-    border: 2px solid red;
-    border-radius: 25px;
-}
-
-.cta-btn a {
-    text-decoration: none;
-    color: whitesmoke;
-}
-
-
-.second-page {
+.second-page span {
     position: relative;
     width: 80%;
     height: 100%;
@@ -227,6 +277,13 @@ nav li a:hover::after {
     text-align: center;  
     padding: 2em 0;
 }
+
+@keyframes scroll-reveal {
+    to {
+        background-size: 100% 100%;
+    }
+}
+
 
 #about {
 
@@ -326,7 +383,18 @@ footer {
     margin-top: 40px;
     padding: 40px 0;
     background-color: whitesmoke;
-    height: 30vh;
+    height: 50vh;
+}
+
+footer p {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    padding-bottom: 50px;
+   /* border-top: 1px solid #383838; */
+    border-bottom: 1px solid #383838;
+    margin-bottom: 70px;
+    cursor: pointer;
 }
 
 footer .social {
@@ -377,4 +445,17 @@ footer ul li {
 footer ul li a:hover {
     opacity: 1;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
