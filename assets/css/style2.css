@@ -8,7 +8,6 @@ body {
     font-family: sans-serif;
     background-color: whitesmoke;
     color: #383838;
-    height: 200vh;
 }
 
 header {
@@ -31,6 +30,12 @@ header {
 .navdiv {
     margin: 0 auto;
     width: 1370px;
+}
+
+.home {
+    text-decoration: none;
+    color: #383838;
+    
 }
 
 .navdiv ul {
@@ -79,7 +84,7 @@ header {
     padding: 10px 20px;
 }
 
-nav a::after {
+.navdiv a::after {
     content: "";
     position: absolute;
     background-color: #383838;
@@ -91,7 +96,7 @@ nav a::after {
     opacity: 0;
 }
 
-nav a:hover::after {
+.navdiv a:hover::after {
    width: 80%;
    opacity: 1;
 }
@@ -261,5 +266,38 @@ footer ul li {
 footer ul li a:hover {
     opacity: 1;
 }
+
+/*------------------------Buy-Page------------------------*/
+
+.purchase-container {
+    margin-top: 200px;
+    margin-left: 150px;
+    margin-bottom: 120px;
+}
+
+input {
+    border: 1px solid #383838;
+    font-weight: bold;
+    height: 33px;
+    width: 33px;
+    text-align: center;
+    padding-right: 2px;
+}
+
+.cart {
+    background: red;
+    color: whitesmoke;
+    font-size: 15px;
+    margin-left: 20px;
+    padding: 5px 10px;
+    border: 1px solid red;
+    border-radius: 5px;
+}
+
+.cart:hover {
+    filter: grayscale(20%);
+}
+
+
 
 
