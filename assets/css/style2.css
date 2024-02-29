@@ -183,6 +183,7 @@ nav i {
     width: 255px;
     height: 350px;
     object-fit: cover;
+    margin-bottom: 10%;
 }
 
 .product__img1 { 
@@ -204,6 +205,31 @@ nav i {
     opacity: 1;
 }
 
+.details .card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.title {
+    text-align: left;
+    line-height: 25px;
+}
+
+.title h3 {
+    font-weight: 600;
+    font-size: .95rem;
+}
+
+.card p {
+    font-size: .9rem;
+}
+
+.pricing {
+    margin-top: 50%;
+}
 /*---------------------------Product Details Styling-----------------------------*/
 
 .purchase-container {
