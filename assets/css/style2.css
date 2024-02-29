@@ -266,38 +266,3 @@ footer ul li {
 footer ul li a:hover {
     opacity: 1;
 }
-
-/*------------------------Buy-Page------------------------*/
-
-.purchase-container {
-    margin-top: 200px;
-    margin-left: 150px;
-    margin-bottom: 120px;
-}
-
-input {
-    border: 1px solid #383838;
-    font-weight: bold;
-    height: 33px;
-    width: 33px;
-    text-align: center;
-    padding-right: 2px;
-}
-
-.cart {
-    background: red;
-    color: whitesmoke;
-    font-size: 15px;
-    margin-left: 20px;
-    padding: 5px 10px;
-    border: 1px solid red;
-    border-radius: 5px;
-}
-
-.cart:hover {
-    filter: grayscale(20%);
-}
-
-
-
-

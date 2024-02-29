@@ -220,6 +220,7 @@ nav i {
 }
 
 .cta-btn {
+    position: relative;
     text-align: right;
     margin-right: 10%;
     margin-top: -8%;
@@ -450,17 +451,3 @@ footer ul li {
 footer ul li a:hover {
     opacity: 1;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
