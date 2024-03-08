@@ -14,8 +14,6 @@ html {
     scroll-behavior: smooth;
 }
 
-/*-------------------Header & Navigation Styling-------------------*/
-
 header {
     display: flex;
     flex-direction: column;
@@ -72,15 +70,6 @@ nav li a:hover::after {
     border: 1px solid whitesmoke;
 }
 
-.search-box input {
-    width: 0;
-    outline: none;
-    border: none;
-    font-weight: 300;
-    transition: 0.8s;
-    background: transparent;
-}
-
 .search-box:hover input {
     width: 200px;
     border: 1px solid #383838;
@@ -92,6 +81,15 @@ nav li a:hover::after {
 nav i {
     margin-left: 10px;
     color: red;
+}
+
+.search-box input {
+    width: 0;
+    outline: none;
+    border: none;
+    font-weight: 300;
+    transition: 0.8s;
+    background: transparent;
 }
 
 .name-wrapper {
@@ -107,6 +105,7 @@ nav i {
     font-family: 'Poppins', sans-serif;
     font-size: 14.2rem;
     font-weight: 200;
+   /* border-bottom: 2px solid #383838; */
 }
 
 
@@ -131,8 +130,6 @@ nav i {
     color: whitesmoke;
     border: 3px solid #383838;
 }
-
-/*-----------------------Hero Styling---------------------*/
 
 .hero {
     max-width: 95%;
@@ -213,8 +210,6 @@ nav i {
     }
 }
 
-/*----------------------Slogan Styling----------------------*/
-
 .main-page h1 {
     width: 95%;
     font-size: 6.8rem;
@@ -290,13 +285,12 @@ nav i {
     }
 }
 
-/*---------------------------About Styling--------------------------*/
 
 #about {
 
     background-color: #383838;
     width: 97%;
-    height: 170vh;
+    height: 180vh;
     margin: 0 auto;
 }
 
@@ -389,258 +383,10 @@ h2 {
     margin: 0 0 0 70%;
 }
 
-/*----------------------Contact Page Styling-----------------------*/
 
-.contactUs{
-    position: relative;
-    width: 100%;
-    padding: 40px 100px;
-}
-
-.title p {
-    font-size: 8rem;
-    color: #383838;
-}
-
-.title span {
-    color: red;
-}
-
-.contact {
-    padding: 40px;
-    color: #383838;
-    background-color: white;
-    box-shadow: ;
-}
-
-.contact h1 {
-    color: #383838;
-    margin-bottom: 20px;
-}
-
-.form {
-    grid-area: form;
-}
-
-.info {
-    grid-area: info;
-}
-
-.map {
-    grid-area: map;
-}
-
-.contact-box {
-    position: relative;
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    grid-template-rows: 5fr 4fr;
-    grid-template-areas: 
-    "form info"
-    "form map";
-    grid-gap: 20px;
-    margin-top: 20px;
-}
-
-.contact h3 {
-    color: #383838;
-    font-weight: 500;
-    font-size: 1.4rem;
-    margin-bottom: 10px;
-}
-
-.formBox {
-    position: relative;
-    width: 100%;
-}
-
-.formBox .row50 {
-    display: flex;
-    gap: 20px;
-}
-
-.formBox .row100 .inputBox {
-    width: 100%;
-}
-
-.contact p {
-    color: white;
-}
-
-.inputBox {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 10px;
-    width: 50%;
-}
-
-input {
-    background-color: white;
-}
-
-.inputBox span {
-    color: red;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    font-weight: 500;
-    font-size: 1.1rem;
-}
-
-.inputBox input {
-    padding: 10px;
-    font-size: 1.1rem;
-    outline: none;
-    border: 1px solid #383838;
-}
-
-.inputBox textarea {
-    font-family: sans-serif;
-    padding: 10px;
-    font-size: 1.1rem;
-    outline: none;
-    resize: none;
-    min-height: 220px;
-    margin-bottom: 10px;
-}
-
-.inputBox input[type="submit"] {
-    background-color: #383838;
-    color: whitesmoke;
-    border: none;
-    font-size: 1.1rem;
-    max-width: 120px;
-    font-weight: 500;
-    cursor: pointer;
-    padding: 14px 15px;
-}
-
-.inputBox input[type="submit"]:hover {
-    color: #383838;
-    background-color: white;
-    border: 1px solid red;
-    transition: ease 0.3s;
-}
-
-.inputBox ::placeholder {
-    color: #999;
-}
-
-.info {
-    background-color: #383838;
-}
-
-.info span {
-    color: white;
-}
-
-.info h3 {
-    color: whitesmoke;
-}
-
-.info .infoBox div {
-    display: flex;
-    align-items: center;
-    margin-bottom: 10px;
-}
-
-.info .infoBox div span {
-    min-width: 40px;
-    height: 40px;
-    color: red;
-    background-color: whitesmoke;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.5rem;
-    border-radius: 50%;
-    margin: 5px 15px 0 0;
-}
-
-.info .infoBox div p {
-    color: whitesmoke;
-}
-
-.info .infoBox div a {
-    color: whitesmoke;
-    text-decoration: none;
-    font-size: 1.1rem;
-}
-
-.socials {
-    margin-top: 40px;
-    display: flex;
-}
-
-.socials li {
-    list-style: none;
-    margin-right: 15px;
-}
-
-.socials li a {
-    color: whitesmoke;
-    font-size: 2rem;
-    color: #ccc;
-}
-
-.socials li a:hover {
-    color: whitesmoke;
-}
-
-.map {
-    padding: 0;
-}
-
-.map iframe {
-    width: 100%;
-    height: 100%;
-}
-
-/*----------------------------Media Query For Contact Page----------------------------*/
-
-@media (max-width: 991px) {
-
-
-    .contactUs {
-        padding: 20px;
-    }
-    
-    .contact-box {
-        grid-template-columns: 1fr;
-        grid-template-rows: auto;
-        grid-template-areas:
-            "form"
-            "info"
-            "map";
-    }
-    
-    .formBox .row50 {
-        display: flex;
-        gap: 0;
-        flex-direction: column;
-    }
-    
-    .inputBox {
-        width: 100%;
-    }
-    
-    .contact {
-        padding: 30px;
-    }
-    
-    .map {
-        min-height: 300px;
-        padding: 0;
-    }
-    
-    
-    }
-
-
-
-/*----------------------Footer Styling----------------------*/
 
 footer {
-    margin-top: 10px;
+    margin-top: 40px;
     padding: 40px 0;
     background-color: whitesmoke;
     height: 50vh;
@@ -704,6 +450,3 @@ footer ul li {
 footer ul li a:hover {
     opacity: 1;
 }
-
-
-    
