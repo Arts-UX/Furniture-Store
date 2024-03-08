@@ -50,7 +50,7 @@ header {
 .logo {
     position: absolute;
     left: 50%;
-    top: 0;
+    top: 10px;
     margin-left: -132px;
 }
 
@@ -136,6 +136,13 @@ nav i {
     background: transparent;
 }
 
+@media (max-width: 992px) {
+    label.logo {
+        font-size: 30px;
+        padding-left: 150px;
+    }
+}
+
 /*-------------------------------Product Page Styling-------------------------------*/
 
 .container {
@@ -171,6 +178,11 @@ nav i {
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     width: 90%;
     margin: 0 auto;
+}
+
+.product-container a {
+    text-decoration: none;
+    color: #383838;
 }
 
 .product__item {
@@ -230,52 +242,23 @@ nav i {
 .pricing {
     margin-top: 50%;
 }
-/*---------------------------Product Details Styling-----------------------------*/
 
-.purchase-container {
-    margin-top: 200px;
-    margin-left: 150px;
-    margin-bottom: 120px;
-}
-
-input {
-    border: 1px solid #383838;
-    font-weight: bold;
-    height: 33px;
-    width: 33px;
-    text-align: center;
-    padding-right: 2px;
-}
-
-.cart {
-    background: red;
-    color: whitesmoke;
-    font-size: 15px;
-    margin-left: 20px;
-    padding: 5px 10px;
-    border: 1px solid red;
-    border-radius: 5px;
-}
-
-.cart:hover {
-    filter: grayscale(20%);
-}
-
-/*------------------------------Footer Styling----------------------------*/
+/*------------------------------Footer Styling------------------------------*/
 
 footer {
     margin-top: 40px;
     padding: 40px 0;
     background-color: whitesmoke;
-    height: 50vh;
+    height: 60vh;
 }
 
 footer p {
     text-align: center;
     font-family: 'Poppins', sans-serif;
     font-size: 1.5rem;
-    padding-bottom: 50px;
+    padding: 50px 0;
     border-bottom: 1px solid #383838;
+    border-top: 1px solid #383838;
     margin-bottom: 70px;
     cursor: pointer;
 }
@@ -327,4 +310,46 @@ footer ul li {
 
 footer ul li a:hover {
     opacity: 1;
+}
+
+
+/*---------------------------Product Details Styling-----------------------------*/
+
+.col-md-7 h2 {
+   padding-bottom: 10px;
+   font-weight: 300;
+}
+
+.head {
+    font-size: 2rem;
+    font-weight: 200;
+}
+
+.purchase-container {
+    margin-top: 200px;
+    margin-left: 150px;
+    margin-bottom: 120px;
+}
+
+input {
+    border: 1px solid #383838;
+    font-weight: bold;
+    height: 33px;
+    width: 33px;
+    text-align: center;
+    padding-right: 2px;
+}
+
+.cart {
+    background: red;
+    color: whitesmoke;
+    font-size: 15px;
+    margin-left: 20px;
+    padding: 5px 10px;
+    border: 1px solid red;
+    border-radius: 5px;
+}
+
+.cart:hover {
+    filter: grayscale(20%);
 }
