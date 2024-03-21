@@ -437,6 +437,10 @@ h2 {
     margin-bottom: 10px;
 }
 
+.form {
+    grid-area: form;
+}
+
 .formBox {
     position: relative;
     width: 100%;
@@ -575,8 +579,15 @@ input {
     color: whitesmoke;
 }
 
+.map {
+    grid-area: map;
+    padding: 0;
+}
 
-
+.map iframe {
+    width: 100%;
+    height: 100%;
+}
 
 /*----------------------Footer Styling----------------------*/
 
