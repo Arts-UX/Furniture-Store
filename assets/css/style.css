@@ -513,6 +513,67 @@ input {
     color: #999;
 }
 
+.info {
+    grid-area: info;
+    background-color: #383838;
+}
+
+.info span {
+    color: white;
+}
+
+.info h3 {
+    color: whitesmoke;
+}
+
+.info .infoBox div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.info .infoBox div span {
+    min-width: 40px;
+    height: 40px;
+    color: red;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    border-radius: 50%;
+    margin: 5px 15px 0 0;
+}
+
+.info .infoBox div p {
+    color: whitesmoke;
+}
+
+.info .infoBox div a {
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+.socials {
+    margin-top: 40px;
+    display: flex;
+}
+
+.socials li {
+    list-style: none;
+    margin-right: 15px;
+}
+
+.socials li a {
+    color: whitesmoke;
+    font-size: 2rem;
+    color: #ccc;
+}
+
+.socials li a:hover {
+    color: whitesmoke;
+}
 
 
 
