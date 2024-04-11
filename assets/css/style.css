@@ -17,59 +17,120 @@ html {
 /*-------------------Header & Navigation Styling-------------------*/
 
 header {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: end;
-    margin-bottom: 5em;
+    position: fixed;
+    width: 100%;
+    border-bottom: 1px solid #383838;
+    top: 0;
+    z-index: 99;
+
 }
 
-nav {
-    margin: 2em;
-    border-radius: 20px;
-    padding: .5em 1em;
-    background-color: whitesmoke;
-}
-
-nav ul {
-    list-style-type: none;
-    display: flex;
-    gap: 4.1em;
-}
-
-nav li a {
+#navbar {
+    width: 100%;
     position: relative;
-    font-size: .9rem;
-    text-decoration: none;
-    text-transform: uppercase;
-    color: #383838;
-    padding: 0 10px;
+    background-color: whitesmoke;
+    font-family: 'Poppins';
+    padding: 33px 0;
 }
 
-nav li a::after {
+.navdiv {
+    margin: 0 auto;
+    width: 1370px;
+}
+
+.home {
+    text-decoration: none;
+    color: #383838;
+    
+}
+
+.navdiv ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: right;
+}
+
+.logo {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    margin-left: -132px;
+    padding: 5px;
+}
+
+.logo h1 {
+    font-size: 3.5rem;
+    font-weight: 100;
+}
+
+.navdiv ul li {
+    display: inline-block;
+    padding: 0 20px;
+    list-style: none;
+    display: inline-block;
+}
+
+.navdiv ul li:nth-child(1) {
+    float: left;
+}
+
+.navdiv ul li:nth-child(2) {
+    float: left;
+}
+
+.navdiv ul li:nth-child(3) {
+    float: left;
+}
+
+.navdiv ul li a {
+    position: relative;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #383838;
+    padding: 10px 20px;
+}
+
+.navdiv a::after {
     content: "";
     position: absolute;
     background-color: #383838;
     height: 3px;
     width: 0;
-    left: 5px;
-    bottom: -10px;
-    transition: 0.3s;
+    left: 8px;
+    bottom: -1px;
+    transition: all 0.3s;
+    opacity: 0;
 }
 
-nav li a:hover::after {
-   width: 85%;
+.navdiv a:hover::after {
+   width: 80%;
+   opacity: 1;
 }
 
 .search-box {
     margin-top: -6px;
     height: 30px;
-    display: flex;
+    display: inline;
     cursor: pointer;
     background: whitesmoke;
     border-radius: 30px;
     align-items: center;
     border: 1px solid whitesmoke;
+}
+
+.search-box:hover input {
+    width: 200px;
+    border: 1px solid #383838;
+    border-radius: 20px;
+    padding: 3px 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav i {
+    margin-left: 10px;
+    color: red;
+    padding: 10px;
 }
 
 .search-box input {
@@ -81,25 +142,13 @@ nav li a:hover::after {
     background: transparent;
 }
 
-.search-box:hover input {
-    width: 200px;
-    border: 1px solid #383838;
-    border-radius: 20px;
-    padding: 5px 20px;
-    font-family: 'Poppins', sans-serif;
-}
-
-nav i {
-    margin-left: 10px;
-    color: red;
-}
-
 .name-wrapper {
     display: flex;
     position: relative;
     left: 4em;
     width: 90%;
     border-bottom: 2px solid #383838;
+    margin-top: 25%;
 }
 
 
@@ -109,6 +158,7 @@ nav i {
     font-weight: 200;
 }
 
+/*--------------------Scroll To Top Button--------------------*/
 
 .scroll-to-top-btn {
     position: fixed;
@@ -389,6 +439,75 @@ h2 {
     margin: 0 0 0 70%;
 }
 
+/*-------------------------------Product Page Styling-------------------------------*/
+
+.container2 {
+    text-align: center;
+    margin-top: 7%;
+}
+
+.container2 span {
+    color: red;
+    font-size: 2rem;
+}
+
+.container2 h1 {
+    justify-content: center;
+    font-family: 'Poppins';
+    font-weight: 300;
+    font-size: 4.5rem;
+    border-bottom: 1px solid #383838;
+    margin-top: 7%;
+} 
+
+.container2 .protext {
+    padding-top: 30px;
+    font-size: 1.7rem;
+    font-family: 'Poppins';
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #383838;
+}
+
+
+.product-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    width: 90%;
+    margin: 0 auto;
+}
+
+.product__item {
+    margin-top: 10%;
+    cursor: pointer;
+    position: relative;
+}
+
+.product__item img {
+    width: 255px;
+    height: 350px;
+    object-fit: cover;
+}
+
+.product__img1 { 
+    width: 100%;
+    height: 100%;
+}
+
+.top-img {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: all 0.7s ease;
+    margin-left: 33px;
+}
+
+.top-img:hover {
+    opacity: 1;
+}
+
 /*----------------------Contact Page Styling-----------------------*/
 
 .contactUs{
@@ -658,4 +777,3 @@ footer ul li a:hover {
 }
 
 
-    
