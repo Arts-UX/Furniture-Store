@@ -709,6 +709,67 @@ input {
     height: 100%;
 }
 
+/*---------------------404 Error Page---------------------*/
+
+.error-page {
+    position: absolute;
+    top: 10%;
+    left: 17%;
+    right: 17%;
+    bottom: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.error-page .error-content {
+    max-width: 600px;
+    text-align: center;
+}
+
+.error-content h1 {
+    font-size: 18vw;
+    line-height: 1em;
+}
+
+.error-content h4 {
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    color: red;
+    max-width: 600px;
+    font-size: 2rem;
+}
+
+.error-content p {
+    font-size: 1.2rem;
+    color: #383838;
+}
+
+.btn {
+    margin: 25px 0;
+    display: inline-flex;
+}
+
+.btn a {
+    display: inline-block;
+    margin: 0 10px;
+    text-decoration: none;
+    border: 2px solid red;
+    color: red;
+    font-weight: 500;
+    padding: 10px 25px;
+    border-radius: 25px;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+}
+
+.btn a:hover {
+    color: #fff;
+    background-color: red;
+}
+
 /*----------------------Footer Styling----------------------*/
 
 footer {
@@ -776,5 +837,3 @@ footer ul li {
 footer ul li a:hover {
     opacity: 1;
 }
-
-
