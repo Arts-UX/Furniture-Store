@@ -123,7 +123,7 @@ ul{
     top:0;
 }
 
-/*-----------------------------Header Logo------------------------*/
+/*---------------------------Header Logo Styling---------------------------*/
 
 .name-wrapper {
     display: flex;
@@ -804,4 +804,143 @@ footer ul li a:hover {
     opacity: 1;
 }
 
+/*-------------------- Media Queries-------------------*/
+
+/*--------------------Media Queries For Navigation Bar-------------------------*/
+
+@media (min-width: 768px) {
+    .nav{
+        max-height: none;
+        top: 0;
+        position: relative;
+        float: right;
+        width: fit-content;
+        background-color: transparent;
+    }
+
+    .menu a {
+        color: #383838;
+    }
+
+    .menu li{
+        float: left;
+    }
+    .menu a:hover{
+        background-color: transparent;
+        color: var(--gray);
+
+    }
+
+    .hamb{
+        display: none;
+    }
+}
+
+/*-------------------------Media Queries For Hero Section--------------------------*/
+
+@media (max-width: 768px) {
+    .hero-photo-gallery {
+        flex-direction: column;
+    }
+
+}
+
+/*----------------------Media Quries For Main Page & Second Page--------------------*/
+
+@media (max-width: 991px) {
+    #shop-name {
+        font-size: 8rem;
+    }
+
+    .main-page .mh1 {
+        font-size: 4rem;
+    }
+
+    .cta-btn {
+        position: relative;
+        text-align: right;
+        margin-right: 6%;
+        margin-top: -8%;
+    }
+
+    .button {
+        font-size: 0.8rem;
+    }
+
+    .second-page span .second-slogan-text {
+        font-size: 4rem;
+    }
+
+/*----------------------Media Quries For About Section------------------------*/
+
+    #about {
+        height: 100%;
+    }
+
+    #about #about-heading {
+        display: none;
+    }
+
+    #about .circle {
+        display: none;
+        background-color: blue;
+        width: 100px;
+        height: 100px;
+    }
+
+    .about-img {
+        display: none;
+    }
+    .furniture-maker {
+        display: none;
+    }
+
+    .about-text-wrapper h2 {
+        margin-top: 10%;
+    }
+    
+    .about-text-wrapper .about-text {
+        line-height: 1.7;
+        font-size: 1rem;
+        text-transform: uppercase;
+        color: whitesmoke;
+        width: 600px;
+        font-weight: 200;
+        font-family: sans-serif;
+        padding-bottom: 20%;
+    }
+    
+}
+
+/*----------------------Media Queries For Contact Form-----------------------*/
+
+@media (max-width: 991px) {
+    .contact-box {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-template-areas:
+            "form"
+            "info"
+            "map";
+    }
+    
+    .title p {
+        font-size: 4rem;
+        text-align: center;
+    }
+    
+    .map {
+        min-height: 300px;
+    }
+    
+    .formBox .row50 {
+        display: flex;
+        gap: 0;
+        flex-direction: column;
+    }
+    
+    .inputBox {
+        width: 100%;
+    }
+}
         
