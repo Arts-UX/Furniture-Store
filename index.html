@@ -17,7 +17,6 @@
 
     <!----------------------------Font Awesome---------------------------->
 
-
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
     <title>Masanielli | Official</title>
   </head>
@@ -25,27 +24,20 @@
   <body>
 
  <!------------------Navigation Menu-------------------->
-<header>
-          <nav id="navbar">
-            <div class="logo">
-                    <a class="home" href="index.html"><h1>Masanielli</h1></a>
-            </div>
-            <div class="navdiv">
-            <ul>
-            <li><a clas="links" href="index.html">Home</a></li>
-            <li><a clas="links" href="#about">About</a></li>
-            <li><a clas="links" href="product-page.html" target="_blank">Product</a></li>
-            <li><a clas="links" href="contact.html">Contact</a></li>
-            <div class="search-box">
-            <input type="text" placeholder="Search...">
-            <i class="fas fa-search"></i>
-            </div> 
-          </ul>
-            </div>
-          </nav>
-      </header>
 
-      <main>
+ <header class="header">
+  <a href="index.html" class="logo">Masanielli</a>
+        <input class="side-menu" type="checkbox" id="side-menu"/>
+        <label class="hamb" for="side-menu"><span class="hamb-line"></span></label>
+        <nav class="nav">
+            <ul class="menu">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="product-page.html">Product</a> </li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+      </header>
 
     <!-------------------------Shop Name Logo------------------------->
 
@@ -54,61 +46,37 @@
       <p>(002)</p>
       </div>
 
-    <!----------------Hero Section---------------->
+<!----------------Hero Section---------------->
 
-      <section class="hero">
-        <div class="gallery">
-          <div class="gallery__item gallery__item--1">1
-              <img class ="gallery__image" src="images/chair1.jpeg" alt="">
-          </div>
-
-          <div class="gallery__item gallery__item--2">2
-
-              <div class="text">
-                  <div>stylish and comfortable<br> furniture to turn any
-                      space into a<br>real focal point.
-                  </div>
-              </div>
-          </div>
-
-          <div class="gallery__item gallery__item--3">3
-              <img class ="gallery__image" src="images/chair3.jpeg" alt="">
-          </div>
-
-          <div class="gallery__item gallery__item--4">4
-              <img class ="gallery__image" src="images/chair2.jpeg" alt="">
-          </div>
-
-          <div class="gallery__item gallery__item--5">5
-
-              <div class="text">
-                  <div>
-                      <span>
-                      we always return to where it<br>is beautiful simple
-                      and <br>convienient.
-                      </span>
-                  </div>
-              </div>
-          </div>
-
-          <div class="gallery__item gallery__item--6">6
-              <img class ="gallery__image" src="images/chair4.jpeg" alt="">
-          </div>
-
-          <div class="gallery__item gallery__item--7">7
-
-              <div class="text">
-                  <div>the interior comes to life in a unique
-                      <br>and timeless atmosphere.
-                  </div>
-              </div>
-          </div>
+<div class="hero-image-container">
+  <div class="hero-photo-gallery">
+    <div class="hero-image-column">
+        <div class="hero-photo">
+          <img src="images/chair1.jpeg" alt="">
+        </div>
+        <div class="hero-photo">
+          <img src="images/chair2.jpeg" alt="">
+        </div>
       </div>
-  </div>
-      </section>
-    </main>
+      <div class="hero-image-column">
+        <div class="hero-photo">
+          <img src="images/chair10hover.jpeg" alt="">
+        </div>
 
-    <section>
+        <div class="hero-photo">
+          <img src="images/chair11.jpeg" alt="">
+        </div>
+     </div>
+      <div class="hero-image-column">
+        <div class="hero-photo">
+          <img src="images/chair4.jpeg" alt="">
+        </div>
+        <div class="hero-photo">
+          <img src="images/chair3.jpeg" alt="">
+        </div>
+      </div>
+    </div>
+</div>
 
     <!----------------Scroll To Top Of Page Button----------------->
 
@@ -117,7 +85,7 @@
     <!--------------------------Slogan Inbetween Pages---------------------------->  
 
       <div class="main-page">
-          <h1>Let's Explore <br>Your<span class="red"> True</span><br>
+          <h1 class="mh1">Let's Explore <br>Your<span class="red"> True</span><br>
               <span class="spacing">Decor</span></h1>
       </div>
               <div class="cta-btn">
@@ -140,7 +108,7 @@
     <section>
       <div class="second-page">
               <span>
-          <h1>Never Finished<br>Forever Furnished</h1>
+          <h1 class="second-slogan-text">Never Finished<br>Forever Furnished</h1>
               </span>
       </div>
   </section>
@@ -182,18 +150,20 @@
     <footer id="footer-section">
       <p>Masanielli</p>
       <div class="social">
-        <a href="#"><i class="fab fa-instagram"></i></a>
-        <a href="#"><i class="fab fa-youtube"></i></a>
-        <a href="#"><i class="fab fa-twitter"></i></a>
-        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a>
+        <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
       </div>
 
       <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">Terms</a></li>
-        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="404-page.html">Services</a></li>
+        <li><a href="404-page.html">Terms</a></li>
+        <li><a href="404-page.html">Privacy Policy</a></li>
       </ul>
     </footer>
   </body>
 </html>
+
+

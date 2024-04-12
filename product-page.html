@@ -9,28 +9,21 @@
 </head>
 <body>
 
-    <header>
+    <!---------------------Navigation Menu--------------------->
 
-        <!------------Navigation Menu------------->
-        <nav id="navbar">
-            <div class="logo">
-                    <a class="home" href="index.html"><h1>Masanielli</h1></a>
-            </div>
-            <div class="navdiv">
-            <ul>
-            <li><a clas="links" href="index.html">Home</a></li>
-            <li><a clas="links" href="#about">About</a></li>
-            <li><a clas="links" href="page2.html" target="_blank">Product</a></li>
-            <li><a clas="links" href="#footer-section">Contact</a></li>
-            <div class="search-box">
-            <input type="text" placeholder="Search...">
-            <i class="fas fa-search"></i>
-            </div> 
-          </ul>
-            </div>
-        </nav>
-      </header>
-
+    <header class="header">
+      <a href="index.html" class="logo">Masanielli</a>
+            <input class="side-menu" type="checkbox" id="side-menu"/>
+            <label class="hamb" for="side-menu"><span class="hamb-line"></span></label>
+            <nav class="nav">
+                <ul class="menu">
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="#about">About</a></li>
+                  <li><a href="product-page.html">Product</a> </li>
+                  <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+          </header>
 
       <!-------------------------Product Page------------------------->
 
@@ -114,17 +107,17 @@
     <footer id="footer-section">
         <p>Masanielli</p>
         <div class="social">
-          <a href="#"><i class="fab fa-instagram"></i></a>
-          <a href="#"><i class="fab fa-youtube"></i></a>
-          <a href="#"><i class="fab fa-twitter"></i></a>
-          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a>
+          <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+          <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
         </div>
   
         <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Services</a></li>
-          <li><a href="#">Terms</a></li>
-          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="404-page.html">Services</a></li>
+          <li><a href="404-page.html">Terms</a></li>
+          <li><a href="404-page.html">Privacy Policy</a></li>
         </ul>
       </footer>
 </body>
