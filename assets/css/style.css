@@ -8,6 +8,7 @@ body {
     font-family: sans-serif;
     background-color: whitesmoke;
     color: #383838;
+    overflow-x: hidden;
 }
 
 html {
@@ -851,6 +852,14 @@ footer ul li a:hover {
     #shop-name {
         font-size: 8rem;
     }
+}
+
+@media (max-width: 768px) {
+    #shop-name {
+        font-size: 4.5rem;
+    }
+}
+
 
     .main-page .mh1 {
         font-size: 4rem;
