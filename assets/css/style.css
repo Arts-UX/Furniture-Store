@@ -284,7 +284,7 @@ ul{
 
 /*---------------------Second Page Slogan Styling-----------------------*/
 
-.second-page span {
+.second-page-text {
     position: relative;
     width: 80%;
     height: 100%;
@@ -852,14 +852,6 @@ footer ul li a:hover {
     #shop-name {
         font-size: 8rem;
     }
-}
-
-@media (max-width: 768px) {
-    #shop-name {
-        font-size: 4.5rem;
-    }
-}
-
 
     .main-page .mh1 {
         font-size: 4rem;
@@ -876,12 +868,19 @@ footer ul li a:hover {
         font-size: 0.8rem;
     }
 
-    .second-page span .second-slogan-text {
+    .second-page .second-slogan-text {
         font-size: 4rem;
     }
+}
 
+@media (max-width: 768px) {
+    #shop-name {
+        font-size: 4.5rem;
+    }
+}
 /*----------------------Media Quries For About Section------------------------*/
 
+@media (max-width: 1224px) {
     #about {
         height: 100%;
     }
