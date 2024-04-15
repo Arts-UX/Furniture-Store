@@ -17,21 +17,21 @@ html {
 
 /*-------------------Header & Navigation Styling-------------------*/
 
-:root{
+:root {
     --white: #f9f9f9;
     --black: #36383F;
     --gray: #85888C;
 }
 
-a{
+a {
     text-decoration: none;
-    font-family: "Poppins";
+    font-family: "Poppins" sans-serif;
 }
-ul{
+ul {
     list-style: none;
 }
 
-.header{
+.header {
     background-color: whitesmoke;
     border-bottom: 0px solid #383838; 
     position: sticky;
@@ -41,16 +41,16 @@ ul{
     padding: 20px 0;
 }
 
-.logo{
+.logo {
     display: inline-block;
     color: #383838;
-    font-size: 2rem;
-    font-weight: 200;
-    margin-left: 10px;
-    font-family: "Poppins";
+    font-size: 2.4rem;
+    font-weight: lighter;
+    margin-left: 20px;
+    font-family: "Poppins", sans-serif;
 }
 
-.nav{
+.nav {
     width: 100%;
     height: 100%;
     position: fixed;
@@ -58,21 +58,21 @@ ul{
     overflow: hidden;
 
 }
-.menu a{
+.menu a {
     display: block;
     padding: 20px 30px;
     color: whitesmoke;
 }
-.menu a:hover{
+.menu a:hover {
     background-color: var(--gray);
 }
-.nav{
+.nav {
     max-height: 0;
     transition: max-height .5s ease-out;
 }
 
 
-.hamb{
+.hamb {
     cursor: pointer;
     float: right;
     padding: 40px 20px;
@@ -89,7 +89,7 @@ ul{
 }
 
 .hamb-line::before,
-.hamb-line::after{
+.hamb-line::after {
     background: red;
     content: '';
     display: block;
@@ -98,10 +98,10 @@ ul{
     transition: all .2s ease-out;
     width: 100%;
 }
-.hamb-line::before{
+.hamb-line::before {
     top: 5px;
 }
-.hamb-line::after{
+.hamb-line::after {
     top: -5px;
 }
 
@@ -109,7 +109,7 @@ ul{
     display: none;
 } 
 
-.side-menu:checked ~ nav{
+.side-menu:checked ~ nav {
     max-height: 100%;
 }
 .side-menu:checked ~ .hamb .hamb-line {
@@ -417,14 +417,6 @@ h2 {
     font-size: 2rem;
 }
 
-.product-page-container h1 {
-    justify-content: center;
-    font-family: 'Poppins' sans-serif;
-    font-weight: 300;
-    font-size: 1.5rem;
-    margin-top: 7%; 
-} 
-
 .product-title-text {
     padding-top: 20px;
     font-size: 1.7rem;
@@ -433,7 +425,6 @@ h2 {
     text-transform: uppercase;
     color: #383838;
 }
-
 
 .product-container {
     display: grid;
@@ -447,6 +438,15 @@ h2 {
     cursor: pointer;
     position: relative;
 }
+
+.product__item h1 {
+    justify-content: center;
+    font-family: 'Poppins' sans-serif;
+    font-weight: 200;
+    font-size: 1.2rem;
+    margin-top: 7%; 
+    padding-bottom: 4px;
+} 
 
 .product__item p {
     padding: 5px;
