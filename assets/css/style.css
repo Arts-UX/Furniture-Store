@@ -13,6 +13,7 @@ body {
 
 html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 /*-------------------Header & Navigation Styling-------------------*/
@@ -63,6 +64,15 @@ ul {
     padding: 20px 30px;
     color: whitesmoke;
 }
+
+.menu a span {
+    color: red;
+}
+
+.menu a span:hover {
+    color: rgb(150, 1, 1);
+}
+
 .menu a:hover {
     background-color: var(--gray);
 }
@@ -70,7 +80,6 @@ ul {
     max-height: 0;
     transition: max-height .5s ease-out;
 }
-
 
 .hamb {
     cursor: pointer;
@@ -385,7 +394,8 @@ h2 {
     width: 400px;
     font-weight: 200;
     font-family: sans-serif;
-    margin-bottom: 30px;
+    margin-top: 20px;
+    margin-bottom: 35px;
 }
 
 .brand-font {
@@ -396,18 +406,18 @@ h2 {
 }
 
 .enquire-button {
-    background-color: whitesmoke;
+    background-color: red;
     border-radius: 25px;
     padding: 12px 30px;
-    color: red;
+    color: whitesmoke;
     font-size: 0.9rem;
     text-transform: uppercase;
     
 }
 
 .enquire-button:hover {
-    background-color: red;
-    color: whitesmoke;
+    background-color: whitesmoke;
+    color: red;
     transition: 0.5s;  
 }
 
@@ -435,6 +445,7 @@ h2 {
     overflow: hidden;
     background-color: red;
     height: 50px;
+    width: 100%;
 }
 
 .scroll {
