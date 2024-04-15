@@ -420,11 +420,10 @@ h2 {
 
 .container2 h1 {
     justify-content: center;
-    font-family: 'Poppins';
+    font-family: 'Poppins' sans-serif;
     font-weight: 300;
-    font-size: 4.5rem;
-    border-bottom: 1px solid #383838;
-    margin-top: 7%;
+    font-size: 1.5rem;
+    margin-top: 7%; 
 } 
 
 .container2 .protext {
@@ -446,6 +445,12 @@ h2 {
 
 .product__item {
     margin-top: 10%;
+    cursor: pointer;
+    position: relative;
+}
+
+.product__item p {
+    padding: 5px;
     cursor: pointer;
     position: relative;
 }
