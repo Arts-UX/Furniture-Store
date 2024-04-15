@@ -254,7 +254,6 @@ ul {
     font-size: 0.9rem;
     text-transform: uppercase;
     text-decoration: none;
-
 }
 
 .button:hover {
@@ -386,7 +385,7 @@ h2 {
     width: 400px;
     font-weight: 200;
     font-family: sans-serif;
-
+    margin-bottom: 30px;
 }
 
 .brand-font {
@@ -394,6 +393,22 @@ h2 {
     font-size: 1rem;
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
+}
+
+.enquire-button {
+    background-color: whitesmoke;
+    border-radius: 25px;
+    padding: 12px 30px;
+    color: red;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    
+}
+
+.enquire-button:hover {
+    background-color: red;
+    color: whitesmoke;
+    transition: 0.5s;  
 }
 
 .circle {
@@ -413,13 +428,51 @@ h2 {
     margin-bottom: 5%;
 }
 
-.product-title-text span {
-    color: red;
+.marquee {
+    display: flex;
+    align-items: center;
+    height: 20vh;
+    overflow: hidden;
+    background-color: red;
+    height: 50px;
+}
+
+.scroll {
+    white-space: nowrap;
+    margin: 0 2em;
+}
+
+.scroll div {
+    display: flex;
+    gap: 2em;
+}
+
+.scroll p {
     font-size: 2rem;
+    color: #383838;
+}
+
+.right-to-left {
+    animation: right-to-left 10s infinite linear;
+}
+
+@keyframes right-to-left {
+    from {
+        transform: translateX(0%);
+    }
+    to {
+        transform: translate(-50%)
+    }
+}
+
+.product-title-text span {
+    font-size: 2rem;
+    color: red;
 }
 
 .product-title-text {
-    padding-top: 20px;
+    padding-top: px;
+    margin-top: ;
     font-size: 1.7rem;
     font-family: 'Poppins' sans-serif;
     font-weight: 400;
