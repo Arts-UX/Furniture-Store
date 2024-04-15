@@ -56,3 +56,65 @@ I saw this as good design choice as any potential customer will see what is offe
     <summary>About Section</summary>
     <img src="docs/wireframe/about-section.png">
 </details>
+
+## Features
+
+The website consists on a main home page with an about section and 3 form pages for the website services (Products/Contact/404 error).
+
+## Header & Navigation
+
+The header is displayed across all pages except the 404 error page. It contains a logo to the left, a title and navigation menu. The navigation menu on the home page contains links to all sections in the page.
+
+In mobiles the navigation turns into a drop down with a hamburger menu.
+
+![Header & Navigation](docs/screenshots/navbar-screenshot.png)
+
+![Header & Navigation](docs/screenshots/navbar-hamburger-screenshot.png)
+
+![Header & Navigation](docs/screenshots/navbar-dropdown-screenshot.png)
+
+## Hero Section
+
+The hero section displays a large version of the company logo as well an artiscally presented array of images showcasing some of the products in a grid-like format. This is so the user gets a visual representaion of what the site offers and at the same time providing a proffesional apperance.
+
+![Hero](docs/screenshots/hero-screenshot.png)
+
+## Second Page & Video Section
+
+The second page contains a slogan that has an effect when scrolled to captivate the user and a call to action button that re-directs them to product page.
+
+Upon further scrolling a video of a showroom with furniture is presented which has more to do with aesthics and what a home could look like with these products inside rarther than any other purpose.
+
+![Video Section](docs/screenshots/video-screenshot.png)
+
+![Second Page](docs/screenshots/slogan-screenshot.png)
+
+## About Us Secion
+
+The about us section decribes what it is we do as well a detailed history of the people and the company website.
+
+![About Us](docs/screenshots/about-screenshot.png)
+
+## 2.5 Footer & Social Media links
+
+The footer containes a link to the homepage of the social media platforms aswell links to homepage, our services, terms and privacy policy. Three of those links are inactive, which when clicked wel re-direct you to the 404 error page where the user can click a link returning you back to the homepage. Currently the the links that users to the home page of the social media still don't have any social media profiles.
+
+The logo image was also added to the footer (which again returns the user back to the homepage).
+
+![Footer](docs/screenshots/footer-screenshot.png)
+
+## Product Page
+
+The prodocut pages contains a well laid out structure of images that display each product aswell as the product name, designer and prices.
+
+## Contact Form
+
+The Contact form is a page where the user can send the site owner a feedback, how to enquire about a personalized piece or request any aditional information they might potentially need.
+
+![Contact](docs/screenshots/contact-screenshot.png)
+
+## Error 404 Page
+
+![404 Error](docs/screenshots/404-screenshot.png)
+
+The Error Page contains a 404 message that shows the page they were looking for could not be found and a button which then re-directs them back to the homepage.

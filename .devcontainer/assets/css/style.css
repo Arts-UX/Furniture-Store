@@ -211,9 +211,9 @@ ul{
     display: flex;
     flex-direction: column;
     animation: slide-up;
-    animation-timeline: view();  
+/*    animation-timeline: view();  
     animation-range-start: cover 0vh;
-    animation-range-end: contain 30vh; 
+    animation-range-end: contain 30vh; */
 }
 
 @keyframes slide-up {
@@ -497,7 +497,6 @@ h2 {
     padding: 40px;
     color: #383838;
     background-color: white;
-    box-shadow: ;
 }
 
 .contact h1 {
