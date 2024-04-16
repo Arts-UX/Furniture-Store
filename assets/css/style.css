@@ -303,7 +303,7 @@ ul {
 }
 
 .second-page h1 {
-    font-size: 8rem;
+    font-size: 7.2rem;
     font-weight: 400;
     text-transform: uppercase;
     text-align: center;  
@@ -918,7 +918,13 @@ footer ul li a:hover {
 
 /*----------------------Media Quries For Main Page & Second Page--------------------*/
 
-@media (max-width: 991px) {
+@media (max-width: 1220px) {
+    .second-page .second-slogan-text {
+        font-size: 5.5rem;
+    }
+}
+
+@media (max-width: 992px) {
     .main-page-container .main-page-h1 {
         font-size: 4rem;
     }
@@ -939,7 +945,7 @@ footer ul li a:hover {
     }
 
     .second-page .second-slogan-text {
-        font-size: 4rem;
+        font-size: 4.5rem;
     }
 }
 
@@ -961,7 +967,7 @@ footer ul li a:hover {
     }
 }
 
-@media (max-width: 540px) {
+@media (max-width: 600px) {
     .main-page-container {
         display: none;
     }
@@ -990,7 +996,7 @@ footer ul li a:hover {
 
 /*----------------------Media Quries For About Section------------------------*/
 
-@media (max-width: 1224px) {
+@media (max-width: 1220px) {
     #about {
         height: 100vh;
     }
@@ -1024,7 +1030,7 @@ footer ul li a:hover {
     }   
 }
 
-@media (max-width: 980px) {
+@media (max-width: 992px) {
         #about {
             height: 105vh;
         }
@@ -1040,7 +1046,7 @@ footer ul li a:hover {
     }
 }
 
-@media (max-width: 750px) {
+@media (max-width: 768px) {
     #about {
         height: 90vh;
     }
@@ -1056,8 +1062,7 @@ footer ul li a:hover {
     }
 }
 
-
-@media (max-width: 500px) {
+@media (max-width: 600px) {
     #about {
         height: 80vh;
         width: 90%;
@@ -1065,7 +1070,7 @@ footer ul li a:hover {
 
     .about-text-wrapper .about-text {
         line-height: 1.7;
-        font-size: 0.7rem;
+     font-size: 0.7rem;
         width: 300px;
     }
     .enquire-button {
