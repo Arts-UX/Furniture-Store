@@ -919,12 +919,12 @@ footer ul li a:hover {
 /*----------------------Media Quries For Main Page & Second Page--------------------*/
 
 @media (max-width: 991px) {
-    #shop-name {
-        font-size: 8rem;
-    }
-
     .main-page .mh1 {
         font-size: 4rem;
+    }
+
+    #shop-name {
+        font-size: 7rem;
     }
 
     .cta-btn {
@@ -945,7 +945,7 @@ footer ul li a:hover {
 
 @media (max-width: 768px) {
     #shop-name {
-        font-size: 4.5rem;
+        font-size: 3rem;
     }
 }
 /*----------------------Media Quries For About Section------------------------*/
@@ -1009,6 +1009,10 @@ footer ul li a:hover {
         line-height: 1.7;
         font-size: 0.8rem;
         width: 400px;
+    }
+
+    .about-text-wrapper h2{
+        font-size: 1.5rem;
     }
 }
 
