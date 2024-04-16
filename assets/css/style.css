@@ -212,7 +212,7 @@ ul {
 
 /*----------------------Main Page Styling------------------------*/
 
-.main-page {
+.main-page-container {
     position: relative;
     width: 100%;
     height: 100%;
@@ -238,7 +238,7 @@ ul {
     }
 }
 
-.main-page h1 {
+.main-page-container h1 {
     width: 95%;
     font-size: 6.8rem;
     font-weight: 400;
@@ -919,7 +919,7 @@ footer ul li a:hover {
 /*----------------------Media Quries For Main Page & Second Page--------------------*/
 
 @media (max-width: 991px) {
-    .main-page .mh1 {
+    .main-page-container .main-page-h1 {
         font-size: 4rem;
     }
 
@@ -947,7 +947,47 @@ footer ul li a:hover {
     #shop-name {
         font-size: 3rem;
     }
+
+    .video-section {
+        display: none;
+    }
+
+    .second-slogan-text {
+        display: none;
+    }
+
+    #main-page {
+        margin-bottom: 10%;
+    }
 }
+
+@media (max-width: 540px) {
+    .main-page-container {
+        display: none;
+    }
+
+   .second-slogan-text {
+        display: none;
+    }
+
+    .cta-btn {
+        text-align: center;
+        width: 100%;
+        margin-top: 10%;
+        padding: 20px 0;
+    }
+
+    .button {
+        cursor: pointer;
+        color: whitesmoke;
+        background-color: red;
+        padding: .9em 5em;
+        border-radius: 0;
+        border: 2px solid red;
+        font-size: 0.8rem;    
+    }
+}
+
 /*----------------------Media Quries For About Section------------------------*/
 
 @media (max-width: 1224px) {
@@ -1019,7 +1059,8 @@ footer ul li a:hover {
 
 @media (max-width: 500px) {
     #about {
-        height: 90vh;
+        height: 80vh;
+        width: 90%;
     }
 
     .about-text-wrapper .about-text {
