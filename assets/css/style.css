@@ -814,7 +814,7 @@ input {
 
 .footer-heading p {
         font-size: 10rem;
-        padding: 200px;
+        padding: 200px 0;
 }
 
 .footer-section {
@@ -1012,7 +1012,7 @@ footer ul li a:hover {
         height: 100vh;
     }
 
-    #about #about-heading {
+    #about h1 {
         display: none;
     }
 
@@ -1086,7 +1086,37 @@ footer ul li a:hover {
         font-size: 0.6rem;
     }
 }
+
+@media (max-width: 1220px) {
+    .footer-heading p {
+        font-size: 7rem;
+
+    }
+}
+
+
+/*-------------------Media Queries for Footer Section-----------------*/
+
+@media (max-width: 900px) {
+    .footer-heading p {
+        font-size: 6rem;
+        padding: 100px 0px;
+    }
+}
+
+@media (max-width: 768px) {
+    .footer-heading p {
+        font-size: 5rem;
+        padding: 100px 0px;
+    }
+}
     
+@media (max-width: 600px) {
+    .footer-heading p {
+        font-size: 4rem;
+        padding: 100px 0px;
+    }
+}
 
 /*----------------------Media Queries For Contact Form-----------------------*/
 
