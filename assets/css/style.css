@@ -324,6 +324,7 @@ ul {
     width: 97%;
     height: 170vh;
     margin: 0 auto;
+    margin-bottom: 0;
 }
 
 .container {
@@ -436,7 +437,6 @@ h2 {
 
 .product-page-container {
     text-align: center;
-    margin-bottom: 5%;
 }
 
 .marquee {
@@ -495,6 +495,7 @@ h2 {
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     width: 90%;
     margin: 0 auto;
+    padding-bottom: 80px;
 }
 
 .product__item {
@@ -545,11 +546,12 @@ h2 {
 
 /*----------------------Contact Page Styling-----------------------*/
 
-.contactUs{
+.contactUs {
     position: relative;
     width: 100%;
     padding: 40px 100px;
-    margin-top: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 .title p {
@@ -806,34 +808,41 @@ input {
 
 /*----------------------Footer Styling----------------------*/
 
-footer {
-    margin-top: 10px;
+.footer-heading {
+    text-align: center;
+    }
+
+.footer-heading p {
+        font-size: 10rem;
+        padding: 200px;
+}
+
+.footer-section {
     padding: 40px 0;
-    background-color: whitesmoke;
-    height: 50vh;
+    background-color: #383838;
 }
 
 footer p {
     text-align: center;
-    color: #383838;
+    color: whitesmoke;
     font-family: 'Poppins', sans-serif;
     font-size: 1.5rem;
-    padding-bottom: 50px;
+    padding: 40px 0;
     border-bottom: 1px solid #383838;
-    margin-bottom: 70px;
+    border-top: 1px solid #383838;
     cursor: pointer;
 }
 
 footer .social {
     text-align: center;
     padding-bottom: 25px;
-    color: #383838;
+    color: whitesmoke;
 }
 
 footer .social a {
     font-size: 24px;
-    color: #383838;
-    border: 1px solid #ccc;
+    color: whitesmoke;
+    border: 1px solid whitesmoke;
     width: 40px;
     height: 40px;
     line-height: 38px;
@@ -859,7 +868,7 @@ footer ul {
 }
 
 footer ul li a {
-    color: #383838;
+    color: whitesmoke;
     text-decoration: none;
     opacity: 0.8;
 }
@@ -871,6 +880,10 @@ footer ul li {
 
 footer ul li a:hover {
     opacity: 1;
+}
+
+.banner {
+    background-color: #383838;
 }
 
 /*-------------------- Media Queries-------------------*/
@@ -1106,4 +1119,3 @@ footer ul li a:hover {
         width: 100%;
     }
 }
-        
