@@ -574,6 +574,17 @@ h2 {
     margin-bottom: 20px;
 }
 
+.contact h2 {
+    font-size: 2rem;
+}
+
+.contact h3 {
+    color: #383838;
+    font-weight: 500;
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+}
+
 .contact-box {
     position: relative;
     display: grid;
@@ -584,13 +595,6 @@ h2 {
     "form map";
     grid-gap: 20px;
     margin-top: 20px;
-}
-
-.contact h3 {
-    color: #383838;
-    font-weight: 500;
-    font-size: 1.4rem;
-    margin-bottom: 10px;
 }
 
 .form {
@@ -1120,7 +1124,7 @@ footer ul li a:hover {
 
 /*----------------------Media Queries For Contact Form-----------------------*/
 
-@media (max-width: 991px) {
+@media (max-width: 990px) {
     .contact-box {
         grid-template-columns: 1fr;
         grid-template-rows: auto;
@@ -1147,5 +1151,55 @@ footer ul li a:hover {
     
     .inputBox {
         width: 100%;
+    }
+}
+
+
+
+@media (max-width: 600px) {
+    .contact-box {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-template-areas:
+            "form"
+            "info"
+            "map";
+    }
+
+    .info h2 {
+        font-size: 2rem;
+    }
+    
+    .title p {
+        font-size: 3rem;
+        text-align: center;
+    }
+    
+    .map {
+        min-height: 300px;
+    }
+}
+
+@media (max-width: 500px) {
+    .contact-box {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-template-areas:
+            "form"
+            "info"
+            "map";
+    }
+    
+    .title p {
+        font-size: 3rem;
+        text-align: center;
+    }
+    
+    .info h2 {
+        font-size: 2rem;
+    }
+    
+    .map {
+        min-height: 300px;
     }
 }
