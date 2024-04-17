@@ -1,5 +1,9 @@
 # my veryfirst website
 
+[Visit the live webpage](https://arts-ux.github.io/furniture-store/)
+
+![Responsivity Mockup](docs/responsive-mockup.png)
+
 # 1. Project Overview
 
 ## 1.1. Project Objective
@@ -107,6 +111,8 @@ The logo image was also added to the footer (which again returns the user back t
 
 The prodocut pages contains a well laid out structure of images that display each product aswell as the product name, designer and prices.
 
+![Footer](docs/screenshots/product-screenshot.png)
+
 ## Contact Form
 
 The Contact form is a page where the user can send the site owner a feedback, how to enquire about a personalized piece or request any aditional information they might potentially need.
@@ -118,3 +124,41 @@ The Contact form is a page where the user can send the site owner a feedback, ho
 ![404 Error](docs/screenshots/404-screenshot.png)
 
 The Error Page contains a 404 message that shows the page they were looking for could not be found and a button which then re-directs them back to the homepage.
+
+## HTML Validator
+
+### Home Page
+
+
+
+### Product Page
+
+![Product Page HTML Validation Pass](docs/validation/html-validator-product-pass.png)
+
+### Contact Page
+
+![Contact Page HTML Validation Pass](docs/validation/html-validator-contact-pass.png)
+
+### 404 Error Page
+
+![404 Error Page HTML Validation Pass](docs/validation/html-validator-404-pass.png)
+
+## 3.2. CSS Validator
+
+For validating the CSS, the style.css file was uploaded to the W3C Jigsaw Validation service. It indicated  no errors and the CSS code passed validation.
+
+![CSS Validation Pass](docs/validation/css-validator-pass.png)
+
+## Deployment
+
+The website was developed using VSCode and deployed through GitHub Pages.
+For deploying on GitHub Pages the following actions were taken:
+
+1. Navigate to the repository in GitHub
+2. Select the Settings tab
+3. On the left navigation menu, under Code and Automation, select Pages
+4. Select Deploy from a branch under source
+5. Select the main branch
+6. After the page reloads, the link to the deployed page then showed up at the top.
+
+You can see the GitHub repository by clicking [here](https://github.com/arts-ux/furniture-store).
