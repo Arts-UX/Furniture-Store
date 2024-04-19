@@ -319,7 +319,6 @@ ul {
 /*---------------------------About Section Styling--------------------------*/
 
 #about {
-
     background-color: #383838;
     width: 97%;
     height: 170vh;
@@ -335,7 +334,6 @@ ul {
 }
 
 .about-img {
-
     width: 600px;
     height: 440px;
     margin-left: 5%;
@@ -1098,7 +1096,6 @@ footer ul li a:hover {
     }
 }
 
-
 /*-------------------Media Queries for Footer Section-----------------*/
 
 @media (max-width: 900px) {
@@ -1154,8 +1151,6 @@ footer ul li a:hover {
     }
 }
 
-
-
 @media (max-width: 600px) {
     .contact-box {
         grid-template-columns: 1fr;
@@ -1203,3 +1198,12 @@ footer ul li a:hover {
         min-height: 300px;
     }
 }
+
+
+
+
+
+
+
+
+
