@@ -5,8 +5,8 @@
 }
 
 body {
-    font-family: sans-serif;
-    background-color: whitesmoke;
+    font-family: 'Arimo';
+    background-color: #f5f5f5;
     color: #383838;
     overflow-x: hidden;
 }
@@ -33,7 +33,7 @@ ul {
 }
 
 .header {
-    background-color: whitesmoke;
+    background-color: #f5f5f5;
     border-bottom: 0px solid #383838; 
     position: sticky;
     top: 0;
@@ -48,7 +48,7 @@ ul {
     font-size: 2.4rem;
     font-weight: lighter;
     margin-left: 20px;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 .nav {
@@ -62,11 +62,11 @@ ul {
 .menu a {
     display: block;
     padding: 20px 30px;
-    color: whitesmoke;
+    color: #f5f5f5;
 }
 
 .menu a span {
-    color: red;
+    color: #ff0202;
 }
 
 .menu a span:hover {
@@ -88,7 +88,7 @@ ul {
 }
 
 .hamb-line {
-    background: red;
+    background: #ff0202;
     display: block;
     height: 2px;
     position: relative;
@@ -99,7 +99,7 @@ ul {
 
 .hamb-line::before,
 .hamb-line::after {
-    background: red;
+    background: #ff0202;
     content: '';
     display: block;
     height: 100%;
@@ -157,7 +157,7 @@ ul {
     position: fixed;
     width: 40px;
     height: 40px;
-    background: whitesmoke;
+    background: #f5f5f5;
     border: 3px solid #383838;
     border-radius: 5px;
     bottom: 40px;
@@ -172,7 +172,7 @@ ul {
 
 .scroll-to-top-btn:hover {
     background: #383838;
-    color: whitesmoke;
+    color: #f5f5f5;
     border: 3px solid #383838;
 }
 
@@ -256,7 +256,7 @@ ul {
 
 .button {
     cursor: pointer;
-    color: whitesmoke;
+    color: #f5f5f5;
     background-color: #383838;
     padding: .9em 2em;
     border-radius: 25px;
@@ -268,8 +268,8 @@ ul {
 
 .button:hover {
     color: #383838;
-    background-color: whitesmoke;
-    border: 2px solid red;
+    background-color: #f5f5f5;
+    border: 2px solid #ff0202;
     transition: 0.5s;
 }
 
@@ -354,7 +354,7 @@ ul {
 
 #about h1 {
     font-size: 6rem;
-    color: whitesmoke;
+    color: #f5f5f5;
     font-weight: 400;
     text-transform: uppercase;
     padding: 10% 0 0 0%;
@@ -364,17 +364,17 @@ ul {
 }
 
 #about h1 span {
-    color: red;
+    color: #ff0202;
     font-size: 7rem;
 }
 
 h2 {
-    font-family: sans-serif;
+    font-family: 'Arimo';
     font-size: 2.5rem;
     font-weight: 500;
     line-height: 2.5;
     text-transform: uppercase;
-    color: whitesmoke;   
+    color: #f5f5f5;  
 }
 
 
@@ -390,10 +390,10 @@ h2 {
     line-height: 1.7;
     font-size: .75rem;
     text-transform: uppercase;
-    color: whitesmoke;
+    color: #f5f5f5;
     width: 400px;
     font-weight: 200;
-    font-family: sans-serif;
+    font-family: 'Arimo';
     margin-top: 20px;
     margin-bottom: 35px;
 }
@@ -406,18 +406,18 @@ h2 {
 }
 
 .enquire-button {
-    background-color: red;
+    background-color: #ff0202;
     border-radius: 25px;
     padding: 12px 30px;
-    color: whitesmoke;
+    color: #f5f5f5;
     font-size: 0.9rem;
     text-transform: uppercase;
     
 }
 
 .enquire-button:hover {
-    background-color: whitesmoke;
-    color: red;
+    background-color: #f5f5f5;
+    color: #ff0202;
     transition: 0.5s;  
 }
 
@@ -425,7 +425,7 @@ h2 {
     position: relative;
     width: 150px;
     height: 150px;
-    background-color: red;
+    background-color: #ff0202;
     border-radius: 50%;
     top: -200px;
     margin: 0 0 0 70%;
@@ -442,7 +442,7 @@ h2 {
     align-items: center;
     height: 20vh;
     overflow: hidden;
-    background-color: red;
+    background-color: #ff0202;
     height: 50px;
     width: 100%;
 }
@@ -477,7 +477,7 @@ h2 {
 
 .product-title-text span {
     font-size: 2rem;
-    color: red;
+    color: #ff0202;
 }
 
 .product-title-text {
@@ -505,8 +505,8 @@ h2 {
 .product__item h1 {
     justify-content: center;
     font-family: 'Poppins', sans-serif;
-    font-weight: 200;
-    font-size: 1.2rem;
+    font-weight: 300;
+    font-size: 1.5rem;
     margin-top: 7%; 
     padding-bottom: 4px;
 } 
@@ -558,13 +558,13 @@ h2 {
 }
 
 .title span {
-    color: red;
+    color: #ff0202;
 }
 
 .contact {
     padding: 40px;
     color: #383838;
-    background-color: white;
+    background-color: #fff;
 }
 
 .contact h1 {
@@ -614,7 +614,7 @@ h2 {
 }
 
 .contact p {
-    color: white;
+    color: #fff;
 }
 
 .inputBox {
@@ -625,11 +625,11 @@ h2 {
 }
 
 input {
-    background-color: white;
+    background-color: #fff;
 }
 
 .inputBox span {
-    color: red;
+    color: #ff0202;
     margin-top: 10px;
     margin-bottom: 10px;
     font-weight: 500;
@@ -655,7 +655,7 @@ input {
 
 .inputBox input[type="submit"] {
     background-color: #383838;
-    color: whitesmoke;
+    color: #f5f5f5;
     border: none;
     font-size: 1.1rem;
     max-width: 120px;
@@ -666,8 +666,8 @@ input {
 
 .inputBox input[type="submit"]:hover {
     color: #383838;
-    background-color: white;
-    border: 1px solid red;
+    background-color: #fff;
+    border: 1px solid #ff0202;
     transition: ease 0.3s;
 }
 
@@ -681,11 +681,11 @@ input {
 }
 
 .info span {
-    color: white;
+    color: #fff;
 }
 
 .info h3 {
-    color: whitesmoke;
+    color: #f5f5f5;
 }
 
 .info .infoBox div {
@@ -697,8 +697,8 @@ input {
 .info .infoBox div span {
     min-width: 40px;
     height: 40px;
-    color: red;
-    background-color: whitesmoke;
+    color: #ff0202;
+    background-color: #f5f5f5;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -708,11 +708,11 @@ input {
 }
 
 .info .infoBox div p {
-    color: whitesmoke;
+    color: #f5f5f5;
 }
 
 .info .infoBox div a {
-    color: whitesmoke;
+    color: #f5f5f5;
     text-decoration: none;
     font-size: 1.1rem;
 }
@@ -728,13 +728,13 @@ input {
 }
 
 .socials li a {
-    color: whitesmoke;
+    color: #f5f5f5;
     font-size: 2rem;
     color: #ccc;
 }
 
 .socials li a:hover {
-    color: whitesmoke;
+    color: #f5f5f5;
 }
 
 .map {
@@ -775,7 +775,7 @@ input {
 .error-content h4 {
     margin-bottom: 20px;
     text-transform: uppercase;
-    color: red;
+    color: #ff0202;
     max-width: 600px;
     font-size: 2rem;
 }
@@ -794,8 +794,8 @@ input {
     display: inline-block;
     margin: 0 10px;
     text-decoration: none;
-    border: 2px solid red;
-    color: red;
+    border: 2px solid #ff0202;
+    color: #ff0202;
     font-weight: 500;
     padding: 10px 25px;
     border-radius: 25px;
@@ -805,7 +805,7 @@ input {
 
 .btn a:hover {
     color: #fff;
-    background-color: red;
+    background-color: #ff0202;
 }
 
 /*----------------------Footer Styling----------------------*/
@@ -826,7 +826,7 @@ input {
 
 footer p {
     text-align: center;
-    color: whitesmoke;
+    color: #f5f5f5;
     font-family: 'Poppins', sans-serif;
     font-size: 1.5rem;
     padding: 40px 0;
@@ -838,13 +838,13 @@ footer p {
 footer .social {
     text-align: center;
     padding-bottom: 25px;
-    color: whitesmoke;
+    color: #f5f5f5;
 }
 
 footer .social a {
     font-size: 24px;
-    color: whitesmoke;
-    border: 1px solid whitesmoke;
+    color: #f5f5f5;
+    border: 1px solid #f5f5f5;
     width: 40px;
     height: 40px;
     line-height: 38px;
@@ -870,7 +870,7 @@ footer ul {
 }
 
 footer ul li a {
-    color: whitesmoke;
+    color: #f5f5f5;
     text-decoration: none;
     opacity: 0.8;
 }
@@ -998,8 +998,8 @@ footer ul li a:hover {
 
     .button {
         cursor: pointer;
-        color: whitesmoke;
-        background-color: red;
+        color: #f5f5f5;
+        background-color: #ff0202;
         padding: .9em 5em;
         border-radius: 0;
         border: 2px solid;
